@@ -1,0 +1,9 @@
+Category - Component - Specification - Note
+Antenna - LF Coil (125kHz) - 100-150 turns, 0.2mm CuL, diameter ~30mm - Use ferrite rod for higher sensitivity
+Antenna - HF Coil (13.56MHz) - 3-5 turns, 0.5mm CuL, diameter ~30mm - PCB trace or wire-wound on a frame
+Rectifier - Schottky Diode (LF) - BAT41 / 1N5711 (SOD-323) - Required for low voltage threshold (~0.2V)
+Rectifier - Schottky Diode (HF) - BAT41 / 1N5711 (SOD-323) - Required for low voltage threshold (~0.2V)
+Stabilization/Filtering - Capacitor (LF) - 2.2nF - 4.7nF (C0G/NP0, 50V) - Capacitance depends on exact coil inductance
+Stabilization/Filtering - Capacitor (HF) - 47pF - 100pF (C0G/NP0, 50V) - Capacitance depends on exact coil inductance
+Indication - LED (LF) - Red, Low-current SMD 0805 - Low forward voltage for passive harvesting
+Indication - LED (HF) - Red, Low-current SMD 0805 - Low forward voltage for passive harvesting
